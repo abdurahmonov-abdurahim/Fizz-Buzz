@@ -1,0 +1,41 @@
+/* roboto-mono-600 - latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/roboto-mono-v21-latin-600.eot');
+  src: url('../fonts/roboto-mono-v21-latin-600.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto-mono-v21-latin-600.woff2') format('woff2'),
+       url('../fonts/roboto-mono-v21-latin-600.woff') format('woff'),
+       url('../fonts/roboto-mono-v21-latin-600.ttf') format('truetype');
+}
+
+
+body{
+  font-family: 'Roboto Mono';
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+.herobox{
+  background-color: #3533087f;
+  height: 100vh;
+}
+
+.herobox__form-wrapper{
+  background-color: #ffffff90;
+  padding: 100px 20px;
+  max-width: 700px;
+}
+
+.herobox__heading{
+  font-family: 'Roboto Mono';
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.herobox__desc{
+  font-family: 'Roboto Mono';
+  font-weight: 600;
+  background-color: #FFFFFF;
+}
